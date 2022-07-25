@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.4)  24 JUL 2022 17:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.4)  25 JUL 2022 12:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -389,7 +389,7 @@ LaTeX Font Info:    Trying to load font information for T1+lmr on input line 51
  (/usr/local/texlive/2022/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-No file xxliu_cv_en.aux.
+(./xxliu_cv_en.aux)
 \openout1 = `xxliu_cv_en.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
@@ -412,10 +412,9 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 51.
 LaTeX Font Info:    ... okay on input line 51.
 LaTeX Font Info:    Trying to load font information for T1+lmss on input line 5
 1.
-(/usr/local/texlive/2022/texmf-dist/tex/latex/lm/t1lmss.fd
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-(/usr/local/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+) (/usr/local/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count278
 \scratchdimen=\dimen155
@@ -507,16 +506,20 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 51.
 LaTeX Info: Redefining \pageref on input line 51.
 LaTeX Info: Redefining \nameref on input line 51.
+ (./xxliu_cv_en.out) (./xxliu_cv_en.out)
 \@outlinefile=\write3
 \openout3 = `xxliu_cv_en.out'.
 
+\pagenumberwidth=\skip76
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 51.
 \makecvtitlepicturebox=\box56
-<../img/profile-img.jpg, id=4, 218.0145pt x 218.0145pt>
+<../img/profile-img.jpg, id=81, 218.0145pt x 218.0145pt>
 File: ../img/profile-img.jpg Graphic file (type jpg)
 <use ../img/profile-img.jpg>
 Package pdftex.def Info: ../img/profile-img.jpg  used on input line 58.
 (pdftex.def)             Requested size: 70.0pt x 69.99892pt.
-\makecvtitlepicturewidth=\skip76
+\makecvtitlepicturewidth=\skip77
 
 Underfull \hbox (badness 10000) in paragraph at lines 58--58
 
@@ -573,30 +576,16 @@ Overfull \hbox (0.48558pt too wide) in paragraph at lines 156--157
 with Berry-Boltzmann for-mal-ism, \T1/lmss/bx/n/10.95 (-20) First-Principles
  []
 
-[3] [4]
-
-LaTeX Warning: Etaremune labels have changed.
-               Rerun to get them right.
-
-[5] (./xxliu_cv_en.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `xxliu_cv_en.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `xxliu_cv_en.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  93DD865747865533754CEB47DD7E83B6;2638.
+[3] [4] [5] (./xxliu_cv_en.aux)
+Package rerunfilecheck Info: File `xxliu_cv_en.out' has not changed.
+(rerunfilecheck)             Checksum: 93DD865747865533754CEB47DD7E83B6;2638.
  ) 
 Here is how much of TeX's memory you used:
- 12959 strings out of 478268
- 214038 string characters out of 5846348
- 640915 words of memory out of 5000000
- 30816 multiletter control sequences out of 15000+600000
- 530230 words of font info for 121 fonts, out of 8000000 for 9000
+ 12987 strings out of 478268
+ 214419 string characters out of 5846348
+ 641139 words of memory out of 5000000
+ 30838 multiletter control sequences out of 15000+600000
+ 533035 words of font info for 122 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  70i,12n,83p,1008b,506s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/
@@ -610,10 +599,10 @@ l/texlive/2022/texmf-dist/fonts/type1/public/lm/lmss17.pfb></usr/local/texlive/
 2022/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2022/tex
 mf-dist/fonts/type1/public/lm/lmsso10.pfb></usr/local/texlive/2022/texmf-dist/f
 onts/type1/public/lm/lmsso17.pfb>
-Output written on xxliu_cv_en.pdf (5 pages, 611969 bytes).
+Output written on xxliu_cv_en.pdf (5 pages, 614176 bytes).
 PDF statistics:
- 112 PDF objects out of 1000 (max. 8388607)
- 85 compressed objects within 1 object stream
+ 177 PDF objects out of 1000 (max. 8388607)
+ 148 compressed objects within 2 object streams
  25 named destinations out of 1000 (max. 500000)
- 32774 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 34974 words of extra memory for PDF output out of 35830 (max. 10000000)
 
