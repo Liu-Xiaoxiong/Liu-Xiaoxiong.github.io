@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.4)  25 JUL 2022 12:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.4)  10 AUG 2022 16:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -514,7 +514,7 @@ LaTeX Info: Redefining \nameref on input line 51.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 51.
 \makecvtitlepicturebox=\box56
-<../img/profile-img.jpg, id=81, 218.0145pt x 218.0145pt>
+<../img/profile-img.jpg, id=77, 218.0145pt x 218.0145pt>
 File: ../img/profile-img.jpg Graphic file (type jpg)
 <use ../img/profile-img.jpg>
 Package pdftex.def Info: ../img/profile-img.jpg  used on input line 58.
@@ -578,16 +578,16 @@ with Berry-Boltzmann for-mal-ism, \T1/lmss/bx/n/10.95 (-20) First-Principles
 
 [3] [4] [5] (./xxliu_cv_en.aux)
 Package rerunfilecheck Info: File `xxliu_cv_en.out' has not changed.
-(rerunfilecheck)             Checksum: 93DD865747865533754CEB47DD7E83B6;2638.
+(rerunfilecheck)             Checksum: 107C06A6D07212AA9EA8AA7B17E90B1D;2423.
  ) 
 Here is how much of TeX's memory you used:
- 12987 strings out of 478268
- 214419 string characters out of 5846348
+ 12985 strings out of 478268
+ 214395 string characters out of 5846348
  641139 words of memory out of 5000000
- 30838 multiletter control sequences out of 15000+600000
+ 30837 multiletter control sequences out of 15000+600000
  533035 words of font info for 122 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 70i,12n,83p,1008b,506s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 70i,12n,83p,1008b,504s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/
 texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/20
 22/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/texlive/2022/texmf-dist/
@@ -599,10 +599,10 @@ l/texlive/2022/texmf-dist/fonts/type1/public/lm/lmss17.pfb></usr/local/texlive/
 2022/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2022/tex
 mf-dist/fonts/type1/public/lm/lmsso10.pfb></usr/local/texlive/2022/texmf-dist/f
 onts/type1/public/lm/lmsso17.pfb>
-Output written on xxliu_cv_en.pdf (5 pages, 614176 bytes).
+Output written on xxliu_cv_en.pdf (5 pages, 614072 bytes).
 PDF statistics:
- 177 PDF objects out of 1000 (max. 8388607)
- 148 compressed objects within 2 object streams
- 25 named destinations out of 1000 (max. 500000)
- 34974 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 171 PDF objects out of 1000 (max. 8388607)
+ 142 compressed objects within 2 object streams
+ 24 named destinations out of 1000 (max. 500000)
+ 34966 words of extra memory for PDF output out of 35830 (max. 10000000)
 

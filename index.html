@@ -79,7 +79,7 @@
                                 <li><a href="#resume" class="pt-link"><span class="nav-menu-icon"><i class="lnr lnr-user"></i></span>About Me</a></li>
                                 <li><a href="#projects" class="pt-link"><span class="nav-menu-icon"><i class="lnr lnr-pushpin"></i></span>Projects</a></li>
                                 <li><a href="#publications" class="pt-link"><span class="nav-menu-icon"><i class="lnr lnr-layers"></i></span>Publications</a></li>
-                                <li><a href="./index-cn.html" class="pt-link"><span class="nav-menu-icon"><i class="lnr lnr-earth"></i></span>中文</a></li>
+                                <!-- <li><a href="./index-cn.html" class="pt-link"><span class="nav-menu-icon"><i class="lnr lnr-earth"></i></span>中文</a></li> -->
                             </ul>
                         </nav>
 
@@ -532,33 +532,40 @@
                                             </h6>
                                             <div class="d-none d-lg-block">
                                                 <p><p>
-                                                WannierBerri is a python code for Wannier interpolation and integration of quantities related to Berry curvature and magnetic moment. Various linear or nonlinear transport phenomena can be studied by using WannierBerri. With the help of mixed Fourier transform, recursive adaptive refinement, and tetrahedron method, WannierBerri can show us converged quantity with less computational time and fewer k-points.
+                                                WannierBerri is a python code for Wannier interpolation and integration of quantities related to Berry curvature, magnetic moment ,and their derivatives. Various linear or nonlinear transport phenomena can be studied by using WannierBerri. With the help of mixed Fourier transform, recursive adaptive refinement, and tetrahedron method, WannierBerri can show us converged quantity with less computational time and fewer k-points. Both Wannier functions from DFT and theoretical TB model can be used by WannierBerri
                                                 </p></p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        
-
-                        <div class="card my-3">
-                            <h5 class="card-header">
-                                <div class="row no-gutters">
-                                    <div class="col my-auto"><h5>Berry curvature or Magnetic moment related Nonlinear transport phenomena</h5></div>
-                                </div>
-                            </h5>
-                            <div class="d-md-none d-lg-block">
-                                <div class="row no-gutters">
-                                    <div class="col-lg-3 col-sm-3 col-3 d-flex justify-content-center" style="margin-left:10px; margin-right:10px;">
-                                        <img class="img-fluid mx-auto my-auto d-block" src="./img/WB.png" alt="" style="width: 100%;">
-                                    </div>
-                                    <div class="col">					
-                                        <div class="card-body" style="padding-left:0px">
-                                            <div class="d-none d-lg-block">
-                                                <p><p>
-                                                
-                                                </p></p>
+                                                <table style="text-align:center;">
+                                                    <tr>
+                                                        <th>----------Tested quantities----------</th>
+                                                        <th>----------Testing quantities----------</th>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Ohmic conductivity</td>
+                                                        <td>Linear magnetoresistance</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Anomalous Hall conductivity</td>
+                                                        <td>Quadratic magnetoresistance</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Classic Hall conductivity</td>
+                                                        <td>Nonlinear Hall conductivity</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Nonlinear AHC</td>
+                                                        <td>Electrical magnetochiral anistropy</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Nonlinear Drude conductivity</td>
+                                                        <td>Shift current</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Spin Hall conductivity</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Optical conductivity</td>
+                                                    </tr>
+                                                </table>
                                             </div>
                                         </div>
                                     </div>
@@ -576,13 +583,13 @@
                             <div class="d-md-none d-lg-block">
                                 <div class="row no-gutters">
                                     <div class="col-lg-3 col-sm-3 col-3 d-flex justify-content-center" style="margin-left:10px; margin-right:10px;">
-                                        <img class="img-fluid mx-auto my-auto d-block" src="./img/WB.png" alt="" style="width: 100%;">
+                                        <img class="img-fluid mx-auto my-auto d-block" src="./img/WB__.png" alt="" style="width: 100%;">
                                     </div>
                                     <div class="col">					
                                         <div class="card-body" style="padding-left:0px">
                                             <div class="d-none d-lg-block">
                                                 <p><p>
-                                                
+                                                Ferromagnetic and anti-ferromagnetic structures are famous magnetic structures. But the magnetic ground state of natural material is always worth discussing. More and more studies show that ferromagnetic materials are not colinear, meaning there are more refined magnetic structures beyond the apparent magnetic moment.  E.g. Spiral ferromagnetic structures. The usefulness of the toy models is limited. And the convergence of magnetization in DFT is not very satisfactory especially using supercells. Wannier functions are an excellent tool for studying crystals. It can construct an atomic Hamiltonian from DFT. Once we have a nonmagnetic Wannier Hamiltonian H_nomag, by creating Hamiltonians H' only from magnetic interactions, magnetic Wannier Hamiltonians for various magnetic structures is H_mag = H_nomag + H'.    
                                                 </p></p>
                                             </div>
                                         </div>
