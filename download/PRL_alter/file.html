@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(to bottom, #3498db, #2980b9);
+            color: #333;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #fff;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+        }
+        
+        header {
+            background: #2980b9;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 5px solid #1c6ea4;
+        }
+        
+        h1 {
+            font-size: 2.2rem;
+            margin-bottom: 5px;
+        }
+        
+        .subtitle {
+            color: #e0f7fa;
+            opacity: 0.9;
+        }
+        
+        .directory-info {
+            padding: 15px 20px;
+            background: #e3f2fd;
+            border-bottom: 1px solid #e0e0e0;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .directory-info i {
+            color: #2980b9;
+        }
+        
+        .search-box {
+            padding: 15px 20px;
+            background: #f5f5f5;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        
+        #search-input {
+            width: 100%;
+            padding: 12px 15px;
+            border: 1px solid #ddd;
+            border-radius: 50px;
+            font-size: 1rem;
+            box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.05);
+        }
+        
+        #search-input:focus {
+            outline: none;
+            border-color: #3498db;
+            box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.2);
+        }
+        
+        .file-list {
+            padding: 20px;
+        }
+        
+        .file-item {
+            display: flex;
+            align-items: center;
+            padding: 15px;
+            border-bottom: 1px solid #eee;
+            transition: all 0.2s;
+        }
+        
+        .file-item:hover {
+            background-color: #f0f8ff;
+            transform: translateX(5px);
+        }
+        
+        .file-icon {
+            width: 40px;
+            height: 40px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 15px;
+        }
+        
+        .document-icon {
+            background-color: #74b9ff;
+            color: #0c2461;
+        }
+        
+        .image-icon {
+            background-color: #fd79a8;
+            color: #6a1b9a;
+        }
+        
+        .music-icon {
+            background-color: #55efc4;
+            color: #006266;
+        }
+        
+        .video-icon {
+            background-color: #ffeaa7;
+            color: #e17055;
+        }
+        
+        .archive-icon {
+            background-color: #fab1a0;
+            color: #b71540;
+        }
+        
+        .pdf-icon {
+            background-color: #ff7675;
+            color: #b33939;
+        }
+        
+        .info-container {
+            flex-grow: 1;
+        }
+        
+        .file-name {
+            font-weight: 600;
+            font-size: 1.1rem;
+            color: #2d3436;
+        }
+        
+        .file-details {
+            font-size: 0.85rem;
+            color: #7f8c8d;
+            margin-top: 3px;
+            display: flex;
+            gap: 15px;
+        }
+        
+        .download-btn {
+            background: #2980b9;
+            color: white;
+            text-decoration: none;
+            padding: 8px 16px;
+            border-radius: 5px;
+            font-weight: 500;
+            transition: background 0.3s;
+        }
+        
+        .download-btn:hover {
+            background: #2573a7;
+        }
+        
+        .file-count {
+            padding: 15px 20px;
+            background: #f5f5f5;
+            text-align: center;
+            color: #7f8c8d;
+        }
+        
+        @media (max-width: 600px) {
+            .file-item {
+                flex-wrap: wrap;
+            }
+            
+            .download-btn {
+                margin-top: 10px;
+                width: 100%;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><i class="fas fa-arrow-circle-down"></i> </h1>
+            <p class="subtitle">Data Available</p>
+        </header>
+        
+        <div class="directory-info">
+            <i class="fas fa-folder"></i>
+            <span id="current-dir">./</span>
+        </div>
+        
+        <div class="file-list">
+            <div class="file-item">
+                <div class="file-icon document-icon">
+                    <i class="fas fa-file-zip"></i>
+                </div>
+                <div class="info-container">
+                    <div class="file-name">PRL_Elec_Switch_Alter_data</div>
+                    <div class="file-details">
+                        <span><i class="fas fa-file"></i> ZIP</span>
+                    </div>
+                </div>
+                <a href="PRL_Elec_Switch_Alter_data.zip" class="download-btn" download>
+                    <i class="fas fa-download"></i> Download
+                </a>
+            </div>
+            
+        
+    </div>
+
+</body>
+</html>
+

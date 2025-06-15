@@ -29,12 +29,15 @@
 \moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
 \moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
 
+
 \usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
 \usepackage{etaremune}
 \usepackage[scale=0.75]{geometry} % Reduce document margins
 %\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
 %\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
 \definecolor{cvblue}{RGB}{0,117,210}
+\usepackage{xeCJK}
+\setCJKmainfont{STXihei}
 %----------------------------------------------------------------------------------------
 %	NAME AND CONTACT INFORMATION SECTION
 %----------------------------------------------------------------------------------------
@@ -68,11 +71,11 @@
 
 \section{Education}
 
-\cventry{2019--present}{Ph.D. in Condensed Matter Physics}{University of Zurich}{Switzerland}{}{Supervisor: Dr. Stepan S. Tsirkin}  % Arguments not required can be left empty
+\cventry{2019--present}{Ph.D. in Condensed Matter Physics}{University of Zurich}{Switzerland}{}{Thesis: Simulation of Nonlinear Electronic Transport Using Wannier Interpolation. Supervisor: Stepan S. Tsirkin, Group leader: Titus Neupert}  % Arguments not required can be left empty
 
-\cventry{2016--2019}{M.Sc. in Theoretical Physics}{Lanzhou University}{China}{}{Thesis: Electronic Properties Study of Topological Weyl Semimetals in Space Group $F\bar{4}3m$. Supervisor: Prof. Jianbo Deng}  
+\cventry{2016--2019}{M.Sc. in Theoretical Physics}{Lanzhou University}{China}{}{Thesis: Electronic Properties Study of Topological Weyl Semimetals in Space Group $F\bar{4}3m$. Supervisor: Jianbo Deng}  
 
-\cventry{2012--2016}{B.Sc. in Physics}{Lanzhou University}{China}{}{Thesis: First-principle investigations of 3d transition metal (Fe, Cu, and Co)-doped rocksalt MgO by chain. Supervisor: Prof. Jianbo Deng}  
+\cventry{2012--2016}{B.Sc. in Physics}{Lanzhou University}{China}{}{Thesis: First-principle Investigations of 3d Transition Metal (Fe, Cu, and Co)-doped Rocksalt MgO by Chain. Supervisor: Jianbo Deng}  
 
 \section{Teaching Assistant}
 \subsection{University of Zurich}
@@ -101,7 +104,7 @@
 \cvitem{Scholar}{\href{https://scholar.google.com/citations?user=s2Py778AAAAJ&hl=zh-CN&oi=ao}{\textcolor{gray}{https://scholar.google.com/citations?user=s2Py778AAAAJ\&hl=zh-CN\&oi=ao} } }
 \cvitem{ResearchGate}{\href{https://www.researchgate.net/profile/Xiaoxiong-Liul}{\textcolor{gray}{https://www.researchgate.net/profile/Xiaoxiong-Liu} } }
 \cvitem{Github}{\href{https://github.com/Liu-Xiaoxiong}{\textcolor{gray}{https://github.com/Liu-Xiaoxiong} } }
-\cvitem{Gitlab}{\href{https://gitlab.com/Xiaoxiong\_Liu}{\textcolor{gray}{https://gitlab.com/Xiaoxiong\_Liu} } }
+%\cvitem{Gitlab}{\href{https://gitlab.com/Xiaoxiong\_Liu}{\textcolor{gray}{https://gitlab.com/Xiaoxiong\_Liu} } }
 
 
 \section{Development of Scientific Software (open source)}
@@ -109,7 +112,7 @@
 \cvitem{symmetrize wann matrix}{This code aimed to symmetrize matrix elements from Wannier90. E.g., Hamiltonian and position elements.}
 \cvitem{}{Code available at: \href{https://github.com/Liu-Xiaoxiong/symmetrize_wann_matrix}{\textcolor{gray}{https://github.com/Liu-Xiaoxiong/symmetrize\_wann\_matrix}} }
 
-\subsection{Main Developer of:}
+\subsection{Co-Developer of:}
 \cvitem{WannierBerri}{An advanced tool for Wannier interpolation and integration of quantities related to Berry curvature and magnetic moment. \href{http://wannier-berri.org}{\textcolor{gray}{http://wannier-berri.org}}}
 \cvitem{}{Code available at: \href{https://github.com/wannier-berri/wannier-berri}{\textcolor{gray}{https://github.com/wannier-berri/wannier-berri}} }
 
@@ -123,9 +126,9 @@
 \cvitemwithcomment{High-Throughput}{}{AiiDA}
 
 \section{Publication Activity}
-\cvitem{}{15 Publications, including: Nature Material(1), Communications Physics(1), PRL(1), PRB(4), APL(1)}
-\cvitem{}{290 citations.}
-\cvitem{}{h-index  7}
+\cvitem{}{17 Publications, including: Nature Material(1), Communications Physics(1), PRL(2), PRB(4), APL(1)}
+\cvitem{}{453 citations.}
+\cvitem{}{h-index  8}
 %----------------------------------------------------------------------------------------
 %	AWARDS SECTION
 %----------------------------------------------------------------------------------------
@@ -138,13 +141,14 @@
 
 \section{References}
 \cventry{Group Leader}{Titus Neupert}{}{Institut-Physik, University of Zurich, <neupert@physik.uzh.ch>}{}{}
-\cventry{Supervisor}{Stepan S Tsirkin}{}{Institut-Physik, University of Zurich,  <stepan@physik.uzh.ch>}{}{}
-\cventry{Collaborator}{Ivo Souza}{}{CMF, University of the Basque Country, <ivo\_souza@ehu.eus>}{}{}
+\cventry{Supervisor}{Stepan S. Tsirkin}{}{Centro de Física de Materiales, Universidad del País Vasco,  <stepan.tsirkin@ehu.eus>}{}{}
+\cventry{Collaborator}{Ivo Souza}{}{Centro de Física de Materiales, Universidad del País Vasco <ivo\_souza@ehu.eus>}{}{}
 
 
 \section{Participation in Conferences}
 \subsection{Oral Contributions}
 \begin{etaremune}
+  \item Ab initio calculations of electrical magnetochiral anisotropy with Wannier interpolation, \textbf{APS March meeting}, Las Vegas, USA, March 5-10, 2023
   \item Symmetrization of berry curvature and magnetic moment, \textbf{Wannier 2022 Developers Meeting (smr 3757)}, ICTP, Trieste, Italy, May 23-27, 2022
   \item Gauge-covariant derivatives of the Berry curvature and orbital moment by Wannier interpolation, \textbf{APS March meeting}, Virtual, USA, March 15-19, 2021
 \end{etaremune}
@@ -161,28 +165,29 @@
   \item Gauge-covariant derivatives of the Berry curvature and orbital moment by Wannier interpolation, \textbf{Virtual Electronic Structure Workshop}, Virtual, USA, June 3-5, 2020
 \end{etaremune}
 
+\newpage
 
 \section{Publications}
 
 \begin{etaremune}
-  \item Ab initio calculations of electrical magnetochiral anisotropy with Wannier interpolation, \textcolor{cvblue}{Xiaoxiong Liu}, S. S. Tsirkin, I. Souza, in progress.
-  \item Systematic study of magnetotransport responses with Berry-Boltzmann formalism, \textcolor{cvblue}{Xiaoxiong Liu}, S. S. Tsirkin, I. Souza, in progress.
-  \item Covariant derivatives of Berry-type quantities: Application to nonlinear transport,\textcolor{cvblue}{Xiaoxiong Liu}, M. Á. Jiménez, S. S. Tsirkin, I. Souza, in progress.
-  \item Two-dimensional sliding charge density waves and their protected edge modes, SB Zhang, MS Hossain, JX Yin, \textcolor{cvblue}{Xiaoxiong Liu}, MZ Hasan, T Neupert, arXiv preprint arXiv:2204.06269
-  \item Origin of spin reorientation and intrinsic anomalous Hall effect in the kagome ferrimagnet TbMn6Sn6, DC Jones, S Das, H Bhandari, \textcolor{cvblue}{Xiaoxiong Liu}, P Siegfried, MP Ghimire, SS Tsirkin, II Mazin, NJ Ghimire, arXiv e-prints, arXiv: 2203.17246
-  \item Triple nodal points characterized by their nodal-line structure in all magnetic space groups, PM Lenggenhager, \textcolor{cvblue}{Xiaoxiong Liu}, T Neupert, T Bzdušek, accepted by \textbf{Physical Review B} ,arXiv preprint arXiv:2201.08404
-  \item Intriguing magnetism of the topological kagome magnet $TbMn_6Sn_6$, C Mielke III, Wenlong Ma, V Pomjakushin, O Zaharko, \textcolor{cvblue}{Xiaoxiong Liu}, J-X Yin, SS Tsirkin, TA Cochran, M Medarde, V Poree, D Das, CN Wang, J Chang, T Neupert, A Amato, S Jia, MZ Hasan, H Luetkens, Z Guguchia, Communications Physics 5 (1), 1-9 (2022)
-  \item Signatures of Weyl fermion annihilation in a correlated kagome magnet, I. Belopolski, T. A. Cochran, \textcolor{cvblue}{Xiaoxiong Liu}, Z. Cheng, X. Yang, Z. Guguchia, S. S. Tsirkin, J. Yin, P. Vir, G. S. Thakur, S. Zhang, J. Zhang, K. Kaznatcheev, G. Cheng, G. Chang, D. Multer, N. Shumiya, M. Litskevich, E. Vescovo, T. K. Kim, C. Cacho, N. Yao, C. Felser, T. Neupert, M. Z. Hasan, \textbf{Physical review letters} 127 (25), 256403, (2021)
-  \item Unconventional chiral charge order in kagome superconductor KV3Sb5, Y. Jiang, J. Yin, M. M. Denner, N. Shumiya, B. R. Ortiz, G. Xu, Z. Guguchia, J. He, M. S. Hossain, \textcolor{cvblue}{Xiaoxiong Liu}, J. Ruff, L. Kautzsch, S. Zhang, G. Chang, I. Belopolski, Q. Zhang, T. A. Cochran, D. Multer, M. Litskevich, Z. Cheng, X. Yang, Z. Wang, R. Thomale, T. Neupert, S. D. Wilson, M. Z. Hasan, \textbf{Nature Materials} 20 (10), 1353-1357, (2021)
-  \item Universal higher-order bulk-boundary correspondence of triple nodal points, PM Lenggenhager, \textcolor{cvblue}{Xiaoxiong Liu}, T Neupert, T Bzdušek, accepted by \textbf{Physical Review B},arXiv preprint arXiv:2104.11254
-  \item From triple-point materials to multiband nodal links, PM Lenggenhager, \textcolor{cvblue}{Xiaoxiong Liu}, SS Tsirkin, T Neupert, T Bzdušek, \textbf{Physical Review B} 103 (12), L121101, (2021)
-  \item Magneto-transport and Shubnikov–de Haas oscillations in the type–II Weyl semimetal candidate NbIrTe4 flake, X. Huang, \textcolor{cvblue}{Xiaoxiong Liu}, P. Yu, P. Li, J. Cui, J. Yi, J. Deng, J. Fan, Z. Ji, F. Qu, X. Jing, C. Yang, L Lu, Z. Liu, G. Liu, \textbf{Chinese Physics Letters} 36 (7), 077101, (2019)
-  \item Quantum anomalous Hall effect and topological phase transition in two-dimensional antiferromagnetic Chern insulator NiOsCl6, WW Yang, L Li, JS Zhao, \textcolor{cvblue}{Xiaoxiong Liu}, JB Deng, XM Tao, XR Hu, \textbf{Journal of Physics: Condensed Matter} 30 (18), 185501, (2018)
-  \item A nonmagnetic topological Weyl semimetal in quaternary Heusler compound CrAlTiV, \textcolor{cvblue}{Xiaoxiong Liu}, L Li, Y Cui, J Deng, X Tao, \textbf{Applied Physics Letters} 111 (12), 122104, (2017)
-  \item Ternary Weyl semimetal $NbIrTe_4$ proposed from first-principles calculation, L Li, HH Xie, JS Zhao, \textcolor{cvblue}{Xiaoxiong Liu}, JB Deng, XR Hu, XM Tao, \textbf{Physical Review B} 96 (2), 024106, (2017)
-  \item First-principle investigations of 3d transition metal (Fe, Cu, and Co)-doped rocksalt MgO by chain, \textcolor{cvblue}{Xiaoxiong Liu}, Q Gao, L Li, J Zhao, X Hu, J Deng, \textbf{Journal of Superconductivity and Novel Magnetism} 30 (6), 1635-1641, (2017)
-  \item Effect of As and Nb doping on the magnetic properties for quaternary Heusler alloy FeCoZrGe, GY Mao, \textcolor{cvblue}{Xiaoxiong Liu}, Q Gao, L Li, HH Xie, G Lei, JB Deng, \textbf{Journal of Magnetism and Magnetic Materials} 398, 1-6, (2016)
-  \item First-principle study of half-metallic ferromagnetism in rocksalt XO (X= Li, K, Rb, Cs), G Lei, \textcolor{cvblue}{Xiaoxiong Liu}, HH Xie, L Li, Q Gao, JB Deng,\textbf{Journal of Magnetism and Magnetic Materials} 397, 176-180, (2016)
+  \setlength{\itemsep}{5pt}
+  \item Electrical magnetochiral anisotropy in trigonal tellurium from first principles\\ \textcolor{cvblue}{Xiaoxiong Liu}, Ivo Souza, Stepan S. Tsirkin, \textbf{arXiv e-prints}, arXiv:2303.10164
+  \item Covariant derivatives of Berry-type quantities: Application to nonlinear transport\\ \textcolor{cvblue}{Xiaoxiong Liu}, Stepan S. Tsirkin, Ivo Souza, \textbf{arXiv e-prints}, arXiv:2303.10129
+   \item Origin of spin reorientation and intrinsic anomalous Hall effect in the kagome ferrimagnet TbMn6Sn6\\ DC Jones, S Das, H Bhandari, \textcolor{cvblue}{Xiaoxiong Liu}, P Siegfried, MP Ghimire, SS Tsirkin, II Mazin, NJ Ghimire, \textbf{arXiv e-prints}, arXiv: 2203.17246
+  \item Emergent Edge Modes in Shifted Quasi-One-Dimensional Charge Density Waves\\ SB Zhang, \textcolor{cvblue}{Xiaoxiong Liu}, MS Hossain, JX Yin, MZ Hasan, T Neupert, \textbf{Physical Review Letters}  130, 106203, (2023)
+   \item Triple nodal points characterized by their nodal-line structure in all magnetic space groups\\ PM Lenggenhager, \textcolor{cvblue}{Xiaoxiong Liu}, T Neupert, T Bzdušek,  \textbf{Physical Review B} 106 (8), 085128, (2022), (共同通信)
+  \item Universal higher-order bulk-boundary correspondence of triple nodal points\\ PM Lenggenhager, \textcolor{cvblue}{Xiaoxiong Liu}, T Neupert, T Bzdušek, \textbf{Physical Review B} 106 (8), 085129, (2022)
+  \item Intriguing magnetism of the topological kagome magnet $TbMn_6Sn_6$\\ C Mielke III, Wenlong Ma, V Pomjakushin, O Zaharko, \textcolor{cvblue}{Xiaoxiong Liu}, J-X Yin, SS Tsirkin, TA Cochran, M Medarde, V Poree, D Das, CN Wang, J Chang, T Neupert, A Amato, S Jia, MZ Hasan, H Luetkens, Z Guguchia, \textbf{Communications Physics} 5 (1), 1-9 (2022)
+  \item Signatures of Weyl fermion annihilation in a correlated kagome magnet\\ I. Belopolski, T. A. Cochran, \textcolor{cvblue}{Xiaoxiong Liu}, Z. Cheng, X. Yang, Z. Guguchia, S. S. Tsirkin, J. Yin, P. Vir, G. S. Thakur, S. Zhang, J. Zhang, K. Kaznatcheev, G. Cheng, G. Chang, D. Multer, N. Shumiya, M. Litskevich, E. Vescovo, T. K. Kim, C. Cacho, N. Yao, C. Felser, T. Neupert, M. Z. Hasan, \textbf{Physical Review letters} 127 (25), 256403, (2021), (共同一作)
+  \item Unconventional chiral charge order in kagome superconductor KV3Sb5\\ Y. Jiang, J. Yin, M. M. Denner, N. Shumiya, B. R. Ortiz, G. Xu, Z. Guguchia, J. He, M. S. Hossain, \textcolor{cvblue}{Xiaoxiong Liu}, J. Ruff, L. Kautzsch, S. Zhang, G. Chang, I. Belopolski, Q. Zhang, T. A. Cochran, D. Multer, M. Litskevich, Z. Cheng, X. Yang, Z. Wang, R. Thomale, T. Neupert, S. D. Wilson, M. Z. Hasan, \textbf{Nature Materials} 20 (10), 1353-1357, (2021)
+  \item From triple-point materials to multiband nodal links\\ PM Lenggenhager, \textcolor{cvblue}{Xiaoxiong Liu}, SS Tsirkin, T Neupert, T Bzdušek, \textbf{Physical Review B} 103 (12), L121101, (2021)
+  \item Magneto-transport and Shubnikov–de Haas oscillations in the type–II Weyl semimetal candidate NbIrTe4 flake\\ X. Huang, \textcolor{cvblue}{Xiaoxiong Liu}, P. Yu, P. Li, J. Cui, J. Yi, J. Deng, J. Fan, Z. Ji, F. Qu, X. Jing, C. Yang, L Lu, Z. Liu, G. Liu, \textbf{Chinese Physics Letters} 36 (7), 077101, (2019), (共同一作)
+  \item Quantum anomalous Hall effect and topological phase transition in two-dimensional antiferromagnetic Chern insulator NiOsCl6\\ WW Yang, L Li, JS Zhao, \textcolor{cvblue}{Xiaoxiong Liu}, JB Deng, XM Tao, XR Hu, \textbf{Journal of Physics: Condensed Matter} 30 (18), 185501, (2018)
+  \item A nonmagnetic topological Weyl semimetal in quaternary Heusler compound CrAlTiV\\ \textcolor{cvblue}{Xiaoxiong Liu}, L Li, Y Cui, J Deng, X Tao, \textbf{Applied Physics Letters} 111 (12), 122104, (2017)
+  \item Ternary Weyl semimetal $NbIrTe_4$ proposed from first-principles calculation\\ L Li, HH Xie, JS Zhao, \textcolor{cvblue}{Xiaoxiong Liu}, JB Deng, XR Hu, XM Tao, \textbf{Physical Review B} 96 (2), 024106, (2017)
+  \item First-principle investigations of 3d transition metal (Fe, Cu, and Co)-doped rocksalt MgO by chain\\ \textcolor{cvblue}{Xiaoxiong Liu}, Q Gao, L Li, J Zhao, X Hu, J Deng, \textbf{Journal of Superconductivity and Novel Magnetism} 30 (6), 1635-1641, (2017)
+  \item Effect of As and Nb doping on the magnetic properties for quaternary Heusler alloy FeCoZrGe\\ GY Mao, \textcolor{cvblue}{Xiaoxiong Liu}, Q Gao, L Li, HH Xie, G Lei, JB Deng, \textbf{Journal of Magnetism and Magnetic Materials} 398, 1-6, (2016)
+  \item First-principle study of half-metallic ferromagnetism in rocksalt XO (X= Li, K, Rb, Cs)\\ G Lei, \textcolor{cvblue}{Xiaoxiong Liu}, HH Xie, L Li, Q Gao, JB Deng,\textbf{Journal of Magnetism and Magnetic Materials} 397, 176-180, (2016)
 
 \end{etaremune}
 

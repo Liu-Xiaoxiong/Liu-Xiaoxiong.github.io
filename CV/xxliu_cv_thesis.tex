@@ -1,0 +1,131 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.3 (29/10/16)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com) with modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[12pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+\usepackage{etaremune}
+\usepackage[scale=0.75]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+%\definecolor{cvblue}{RGB}{0,117,210}
+\definecolor{cvblue}{rgb}{0.22,0.45,0.70}% light blue
+%\definecolor{gray}{rgb}{0.45,0.45,0.45}% dark grey
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+\setlength{\parskip}{10pt} 
+\thispagestyle{empty}
+\firstname{Xiaoxiong} % Your first name
+\familyname{Liu} % Your last name
+
+% All information in this block is optional; comment out any lines you don't need
+\title{Curriculum Vitae}
+%\photo[70pt][0.4pt]{../img/profile-img.jpg} % The first bracket is the picture height; the second is the thickness of the frame around 
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+
+%----------------------------------------------------------------------------------------
+%	CURRICULUM VITAE
+%----------------------------------------------------------------------------------------
+
+\makecvtitle % Print the CV title
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+\section{General}
+\cvitem{Born}{2nd Feb 1993}
+\cvitem{Nationality}{China}
+\cvitem{E-mail}{xiaoxiongliu2012@gmail.com}
+%\cvitem{Position}{Ph.D. student in condensed matter physics, University of Zurich, Switzerland}
+
+\section{Education}
+
+\cventry{2019--current}{Ph.D. in Condensed Matter Physics}{University of Zurich}{Switzerland}{}{Supervisor: Stepan S. Tsirkin}  % Arguments not required can be left empty
+
+\cventry{2016--2019}{M.Sc. in Theoretical Physics}{Lanzhou University}{China}{}{Supervisor: Jianbo Deng}  
+
+\cventry{2012--2016}{B.Sc. in Physics}{Lanzhou University}{China}{}{Supervisor: Jianbo Deng}  
+
+\section{Awards}
+
+\cvitem{2018}{National Scholarship of Graduated Student.}
+
+
+\section{Development of Scientific Software (open source)}
+{\textcolor{cvblue}{\large Author of: symmetrize wann matrix}\\
+This code aimed to symmetrize matrix elements from Wannier90. E.g., Hamiltonian and position elements.\\
+Code available at: \href{https://github.com/Liu-Xiaoxiong/symmetrize_wann_matrix}{\textcolor{gray}{https://github.com/Liu-Xiaoxiong/symmetrize\_wann\_matrix}} \\
+~\\
+{\textcolor{cvblue}{\large Co-Developer of: WannierBerri}\\
+An advanced tool for Wannier interpolation and integration of quantities related to Berry curvature and magnetic moment. \href{http://wannier-berri.org}{\textcolor{gray}{http://wannier-berri.org}}\\
+Code available at: \href{https://github.com/wannier-berri/wannier-berri}{\textcolor{gray}{https://github.com/wannier-berri/wannier-berri}} 
+
+%\subsection{Contributor of: (in progress)}
+%\cvitem{ASE}{The Atomic Simulation Environment (ASE) is a set of tools and Python modules for setting up, manipulating, running, visualizing, and analyzing atomistic simulations.  I am improving the Wannier function part of ASE. \href{https://wiki.fysik.dtu.dk/ase/}{\textcolor{gray}{https://wiki.fysik.dtu.dk/ase/}}}
+
+%\
+\newpage
+
+\section{Publications}
+
+\begin{enumerate}
+\setlength{\itemsep}{5pt}
+    \item Electrical magnetochiral anisotropy in trigonal tellurium from first principles\\ \textcolor{cvblue}{Xiaoxiong Liu}, Ivo Souza, Stepan S. Tsirkin, \textbf{arXiv e-prints}, arXiv:2303.10164
+  \item Covariant derivatives of Berry-type quantities: Application to nonlinear transport\\ \textcolor{cvblue}{Xiaoxiong Liu}, Stepan S. Tsirkin, Ivo Souza, \textbf{arXiv e-prints}, arXiv:2303.10129
+   \item Origin of spin reorientation and intrinsic anomalous Hall effect in the kagome ferrimagnet TbMn6Sn6\\ DC Jones, S Das, H Bhandari, \textcolor{cvblue}{Xiaoxiong Liu}, P Siegfried, MP Ghimire, SS Tsirkin, II Mazin, NJ Ghimire, \textbf{arXiv e-prints}, arXiv: 2203.17246
+  \item Emergent Edge Modes in Shifted Quasi-One-Dimensional Charge Density Waves\\ SB Zhang, \textcolor{cvblue}{Xiaoxiong Liu}, MS Hossain, JX Yin, MZ Hasan, T Neupert, \textbf{Physical Review Letters}  130, 106203, (2023)
+   \item Triple nodal points characterized by their nodal-line structure in all magnetic space groups\\ PM Lenggenhager, \textcolor{cvblue}{Xiaoxiong Liu}, T Neupert, T Bzdušek,  \textbf{Physical Review B} 106 (8), 085128, (2022)
+  \item Universal higher-order bulk-boundary correspondence of triple nodal points\\ PM Lenggenhager, \textcolor{cvblue}{Xiaoxiong Liu}, T Neupert, T Bzdušek, \textbf{Physical Review B} 106 (8), 085129, (2022)
+  \item Intriguing magnetism of the topological kagome magnet $TbMn_6Sn_6$\\ C Mielke III, Wenlong Ma, V Pomjakushin, O Zaharko, \textcolor{cvblue}{Xiaoxiong Liu}, J-X Yin, SS Tsirkin, TA Cochran, M Medarde, V Poree, D Das, CN Wang, J Chang, T Neupert, A Amato, S Jia, MZ Hasan, H Luetkens, Z Guguchia, \textbf{Communications Physics} 5 (1), 1-9 (2022)
+  \item Signatures of Weyl fermion annihilation in a correlated kagome magnet\\ I. Belopolski, T. A. Cochran, \textcolor{cvblue}{Xiaoxiong Liu}, Z. Cheng, X. Yang, Z. Guguchia, S. S. Tsirkin, J. Yin, P. Vir, G. S. Thakur, S. Zhang, J. Zhang, K. Kaznatcheev, G. Cheng, G. Chang, D. Multer, N. Shumiya, M. Litskevich, E. Vescovo, T. K. Kim, C. Cacho, N. Yao, C. Felser, T. Neupert, M. Z. Hasan, \textbf{Physical Review letters} 127 (25), 256403, (2021)
+  \item Unconventional chiral charge order in kagome superconductor KV3Sb5\\ Y. Jiang, J. Yin, M. M. Denner, N. Shumiya, B. R. Ortiz, G. Xu, Z. Guguchia, J. He, M. S. Hossain, \textcolor{cvblue}{Xiaoxiong Liu}, J. Ruff, L. Kautzsch, S. Zhang, G. Chang, I. Belopolski, Q. Zhang, T. A. Cochran, D. Multer, M. Litskevich, Z. Cheng, X. Yang, Z. Wang, R. Thomale, T. Neupert, S. D. Wilson, M. Z. Hasan, \textbf{Nature Materials} 20 (10), 1353-1357, (2021)
+  \item From triple-point materials to multiband nodal links\\ PM Lenggenhager, \textcolor{cvblue}{Xiaoxiong Liu}, SS Tsirkin, T Neupert, T Bzdušek, \textbf{Physical Review B} 103 (12), L121101, (2021)
+
+
+
+  
+%\end{etaremune}
+\end{enumerate}
+
+\thispagestyle{empty}
+
+
+
+
+
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
